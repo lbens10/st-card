@@ -58,18 +58,7 @@ class Card extends StreamlitComponentBase {
         position: "relative",
         transition: "all 0.3s ease-in-out",
         ...styles.card,
-      },
-      `
-      & {
-        transform: scale(0.95);
       }
-      &:hover {
-        transform: scale(1);
-      }
-      &:active {
-        transform: scale(0.95);
-      }
-      `
     );
 
     const Parent = styled.div({
